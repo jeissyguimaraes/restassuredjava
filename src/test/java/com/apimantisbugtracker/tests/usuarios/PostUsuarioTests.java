@@ -1,9 +1,9 @@
-package com.apimantisbugtracker.tests.usuario;
+package com.apimantisbugtracker.tests.usuarios;
 
 import com.apimantisbugtracker.bases.TestBase;
 import com.apimantisbugtracker.defaultParameters.GlobalStaticParameters;
-import com.apimantisbugtracker.jsonObjects.usuario.BuscaDadosUsuario;
-import com.apimantisbugtracker.requests.usuario.PostUsuarioRequest;
+import com.apimantisbugtracker.jsonObjects.BuscaDadosUsuario;
+import com.apimantisbugtracker.requests.usuarios.PostUsuarioRequest;
 import io.restassured.response.ValidatableResponse;
 import org.apache.http.HttpStatus;
 import org.testng.annotations.Test;
@@ -26,7 +26,6 @@ public class PostUsuarioTests extends TestBase {
         BuscaDadosUsuario buscaDadosUsuario = new BuscaDadosUsuario();
 
         //fluxo
-        globalStaticParameters = new GlobalStaticParameters();
         PostUsuarioRequest postUsuarioRequest = new PostUsuarioRequest();
         postUsuarioRequest.setJsonBodyUsingJavaObject(buscaDadosUsuario);
         response = postUsuarioRequest.executeRequest();

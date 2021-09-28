@@ -1,7 +1,8 @@
-package com.apimantisbugtracker.requests.usuario;
+package com.apimantisbugtracker.requests.usuarios;
 
+import com.apimantisbugtracker.GlobalParameters;
 import com.apimantisbugtracker.bases.RequestRestBase;
-import com.apimantisbugtracker.jsonObjects.usuario.BuscaDadosUsuario;
+import com.apimantisbugtracker.jsonObjects.BuscaDadosUsuario;
 import io.restassured.http.Method;
 
 public class PostUsuarioRequest extends RequestRestBase {
@@ -10,7 +11,7 @@ public class PostUsuarioRequest extends RequestRestBase {
     public PostUsuarioRequest() {
         requestService = "/api/rest/users/";
         method = Method.POST;
-        headers.put("Authorization", "VkbYeLKTAGyXZIDEs9FGcnNnwgck2FZV");
+        headers.put("Authorization", GlobalParameters.TOKEN);
         headers.put("Content-Type", "application/json");
     }
 

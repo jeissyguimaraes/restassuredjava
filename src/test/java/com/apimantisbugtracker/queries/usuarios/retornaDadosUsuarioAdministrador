@@ -1,0 +1,1 @@
+SELECT username, realname, email FROM bugtracker.mantis_user_table where id = 1

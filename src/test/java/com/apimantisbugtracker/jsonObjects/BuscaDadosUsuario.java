@@ -1,4 +1,4 @@
-package com.apimantisbugtracker.jsonObjects.usuario;
+package com.apimantisbugtracker.jsonObjects;
 
 
 import com.apimantisbugtracker.defaultParameters.GlobalStaticParameters;

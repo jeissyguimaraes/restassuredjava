@@ -53,7 +53,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>set 27, 2021 07:11:26 PM</span>
+			<span class='label blue darken-3 suite-start-time'>set 28, 2021 03:43:25 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -80,7 +80,7 @@
 				<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>DeleteUsuario</a></li>
+					<li><a href='#'>GetTodosFiltros</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -160,19 +160,19 @@
 			<ul id='test-collection' class='test-collection'>
 				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>excluirUsuarioSucesso</span>
-						<span class='test-time'>set 27, 2021 07:11:58 PM</span>
+						<span class='test-name'>buscarFiltrosSucesso</span>
+						<span class='test-time'>set 28, 2021 03:43:27 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>set 27, 2021 07:11:58 PM</span>
-	<span class='label end-time'>set 27, 2021 07:11:58 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+3ms</span>
+	<span class='label start-time'>set 28, 2021 03:43:27 PM</span>
+	<span class='label end-time'>set 28, 2021 03:43:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+144ms</span>
 </div>
 <div class='test-attributes'>
 	<div class='category-list'>
-		<span class='category label'>DeleteUsuario</span>
+		<span class='category label'>GetTodosFiltros</span>
 	</div>
 </div>
 <div class='test-steps'>
@@ -187,7 +187,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>19:11:58</td>
+				<td class='timestamp'>15:43:28</td>
 				<td class='step-details'>
 						Test Result: pass
 					
@@ -199,9 +199,9 @@
 <ul class='collapsible node-list' data-collapsible='accordion'>
 	<li class='node level-1 leaf pass' status='pass' test-id='2'>
 		<div class='collapsible-header'>
-			<div class='node-name'>Request - DELETE - /api/rest/users/173</div>
-			<span class='node-time'>set 27, 2021 07:11:58 PM</span>
-			&middot; <span class='node-duration'>0h 0m 0s+3ms</span>
+			<div class='node-name'>Request - GET - /api/rest/filters</div>
+			<span class='node-time'>set 28, 2021 03:43:27 PM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+144ms</span>
 			<span class='test-status right pass'>pass</span>
 		</div>
 		<div class='collapsible-body'>
@@ -217,7 +217,7 @@
 					<tbody>
 						<tr class='log' status='info'>
 							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>19:11:58</td>
+							<td class='timestamp'>15:43:27</td>
 							<td class='step-details'>
 									<pre><b>URL: </b>http://192.168.99.100:8989</pre>
 								
@@ -225,23 +225,23 @@
 						</tr>
 						<tr class='log' status='info'>
 							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>19:11:58</td>
+							<td class='timestamp'>15:43:27</td>
 							<td class='step-details'>
-									<pre><b>REQUEST: </b>/api/rest/users/173</pre>
+									<pre><b>REQUEST: </b>/api/rest/filters</pre>
 								
 							</td>
 						</tr>
 						<tr class='log' status='info'>
 							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>19:11:58</td>
+							<td class='timestamp'>15:43:27</td>
 							<td class='step-details'>
-									<pre><b>METHOD: </b>DELETE</pre>
+									<pre><b>METHOD: </b>GET</pre>
 								
 							</td>
 						</tr>
 						<tr class='log' status='info'>
 							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>19:11:58</td>
+							<td class='timestamp'>15:43:27</td>
 							<td class='step-details'>
 									<pre><b>HEADERS: </b>
 
@@ -252,31 +252,44 @@
 						</tr>
 						<tr class='log' status='info'>
 							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>19:11:58</td>
+							<td class='timestamp'>15:43:27</td>
 							<td class='step-details'>
-									<pre><b>STATUS CODE: </b>204</pre>
+									<pre><b>STATUS CODE: </b>200</pre>
 								
 							</td>
 						</tr>
 						<tr class='log' status='info'>
 							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-							<td class='timestamp'>19:11:58</td>
+							<td class='timestamp'>15:43:27</td>
 							<td class='step-details'>
 									<pre><b>RESPONSE HEADERS: </b>
 
-Date: Mon, 27 Sep 2021 22:11:58 GMT
+Date: Tue, 28 Sep 2021 18:43:28 GMT
 Server: Apache/2.4.25 (Debian)
 X-Powered-By: PHP/5.6.40
-Set-Cookie: PHPSESSID=c3b7a235bcb19e46c6e7222f33ceee9d; path=/; HttpOnly
+Set-Cookie: PHPSESSID=bef4ff1dce918804f2cce26cef13207e; path=/; HttpOnly
 Cache-Control: no-store, no-cache, must-revalidate, max-age=0
 Last-Modified: Thu, 26 Sep 2019 16:45:58 GMT
 X-Mantis-Username: administrator
 X-Mantis-LoginMethod: api-token
 X-Mantis-Version: 2.22.1
-Content-Encoding: gzip
-Vary: Accept-Encoding
+Content-Length: 14
 Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive</pre>
+Connection: Keep-Alive
+Content-Type: application/json</pre>
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>15:43:27</td>
+							<td class='step-details'>
+									<pre><b>PAYLOAD: </b>
+{
+    filters=[
+        
+    ]
+}</pre>
 								
 							</td>
 						</tr>
@@ -328,7 +341,7 @@ Connection: Keep-Alive</pre>
 			<ul id='category-collection' class='category-collection'>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>DeleteUsuario</span>
+						<span class='category-name'>GetTodosFiltros</span>
 						<span class='category-status right'>
 						<span class='label pass'>1</span>
 						</span>
@@ -350,8 +363,8 @@ Connection: Keep-Alive</pre>
 								</thead>
 								<tbody>
 									<tr>
-										<td>set 27, 2021 07:11:58 PM</td>
-										<td class='linked' test-id='1'>excluirUsuarioSucesso</td>
+										<td>set 28, 2021 03:43:27 PM</td>
+										<td class='linked' test-id='1'>buscarFiltrosSucesso</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -388,19 +401,19 @@ Connection: Keep-Alive</pre>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>set 27, 2021 07:11:26 PM</div>
+					<div class='panel-lead'>set 28, 2021 03:43:25 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>set 27, 2021 07:11:58 PM</div>
+			 		<div class='panel-lead'>set 28, 2021 03:43:28 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 32s+740ms</div>
+					<div class='panel-lead'>0h 0m 2s+763ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -416,7 +429,7 @@ Connection: Keep-Alive</pre>
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>DeleteUsuario</td>
+							<td>GetTodosFiltros</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -467,7 +480,7 @@ Connection: Keep-Alive</pre>
 		</script>
 		<script>
 			var timeline = {
-			        "excluirUsuarioSucesso":0.003
+			        "buscarFiltrosSucesso":0.144
 			};
 		</script>
 	

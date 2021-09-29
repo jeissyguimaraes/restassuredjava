@@ -8,7 +8,4 @@ public class GlobalStaticParameters {
     public static String senhaUsuario = "abc*123";
 
 
-
-
-
 }

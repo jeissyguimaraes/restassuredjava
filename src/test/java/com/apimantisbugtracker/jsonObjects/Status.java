@@ -12,7 +12,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Status {
 
-    private  long id;
+    private  int id;
     private  String name;
     private  String label;
 

@@ -32,12 +32,18 @@ public class PostProjetoTests extends TestBase {
 
         response.log().all();
         response.statusCode(statusCodeEsperado);
- /*       response.body(
-                "user.name", equalTo(buscaDadosUsuario.getUsername()),
-                "user.real_name",equalTo(buscaDadosUsuario.getReal_name()),
-                "user.email",equalTo(buscaDadosUsuario.getEmail()));
+        response.body(
+                "project.name", equalTo(buscaDadosProjeto.getName()),
+                "project.status.id",equalTo(buscaDadosProjeto.getStatus().getId()),
+                "project.status.name",equalTo(buscaDadosProjeto.getStatus().getName()),
+                "project.status.label",equalTo(buscaDadosProjeto.getStatus().getLabel()),
+                "project.description",equalTo(buscaDadosProjeto.getDescription()),
+                "project.enabled",equalTo(buscaDadosProjeto.isEnabled()),
+                "project.view_state.id",equalTo(buscaDadosProjeto.getViewStates().getId()),
+                "project.view_state.name",equalTo(buscaDadosProjeto.getViewStates().getName()),
+                "project.view_state.label",equalTo(buscaDadosProjeto.getViewStates().getLabel()));
 
-  */
+
 
 
     }

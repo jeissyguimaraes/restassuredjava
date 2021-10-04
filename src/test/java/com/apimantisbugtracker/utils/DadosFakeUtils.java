@@ -30,4 +30,18 @@ public class DadosFakeUtils {
        return opcoes[new Random().nextInt(opcoes.length)];
     }
 
+    public static String gerarNomeProjeto(){
+        Faker faker = new Faker(LOCALE);
+        String complemento ="";
+        StringBuilder nomeProjeto = new StringBuilder();
+        nomeProjeto.append("PROJETO MANTIS TESTE");
+        complemento = String.valueOf(new Random().nextInt(100));
+        nomeProjeto.append(complemento);
+        return nomeProjeto.toString();
+    }
+
+    public static String gerarDescricao() {
+        return new Faker(LOCALE).lorem().paragraph();
+    }
+
 }

@@ -20,5 +20,4 @@ public class BuscaDadosUsuario {
     private String real_name = DadosFakeUtils.geraNomeRealCompleto();
     private String email = DadosFakeUtils.geraEmail();
 
-
 }

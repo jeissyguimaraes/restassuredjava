@@ -3,6 +3,8 @@ package com.apimantisbugtracker.tests.usuarios;
 import com.apimantisbugtracker.bases.TestBase;
 import com.apimantisbugtracker.defaultParameters.GlobalStaticParameters;
 import com.apimantisbugtracker.jsonObjects.BuscaDadosUsuario;
+import com.apimantisbugtracker.jsonObjects.Status;
+import com.apimantisbugtracker.jsonObjects.ViewState;
 import com.apimantisbugtracker.requests.usuarios.PostUsuarioRequest;
 import io.restassured.response.ValidatableResponse;
 import org.apache.http.HttpStatus;
@@ -24,6 +26,7 @@ public class PostUsuarioTests extends TestBase {
 
         //Busca dados do usuario
         BuscaDadosUsuario buscaDadosUsuario = new BuscaDadosUsuario();
+
 
         //fluxo
         PostUsuarioRequest postUsuarioRequest = new PostUsuarioRequest();
